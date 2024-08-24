@@ -12,12 +12,10 @@ from utils.queries import QUERY_USER, QUERY_LOGIN, MUTATION_GAME_PROCESS_TAPS_BA
 from utils.queries import QUERY_TASK_VERIF, QUERY_TASK_COMPLETED, QUERY_GET_TASK, QUERY_TASK_ID, QUERY_GAME_CONFIG
 
 def print_welcome_message():
-    print(r"""    
-
-█▀█ ▄▀█ █░█░█ █▀ ▀█▀
-█▀▀ █▀█ ▀▄▀▄▀ ▄█ ░█░
-          """)
-
+    print(r"""
+    █▀█ ▄▀█ █░█░█ █▀ ▀█▀
+    █▀▀ █▀█ ▀▄▀▄▀ ▄█ ░█░
+           """)
 url = "https://api-gw-tg.memefi.club/graphql"
 def load_proxies():
     with open('proxy.txt', 'r') as file:
