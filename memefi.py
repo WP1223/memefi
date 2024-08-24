@@ -11,11 +11,6 @@ from utils.headers import headers_set
 from utils.queries import QUERY_USER, QUERY_LOGIN, MUTATION_GAME_PROCESS_TAPS_BATCH, QUERY_BOOSTER, QUERY_NEXT_BOSS
 from utils.queries import QUERY_TASK_VERIF, QUERY_TASK_COMPLETED, QUERY_GET_TASK, QUERY_TASK_ID, QUERY_GAME_CONFIG
 
-def print_welcome_message():
-    print(r"""
-    █▀█ ▄▀█ █░█░█ █▀ ▀█▀
-    █▀▀ █▀█ ▀▄▀▄▀ ▄█ ░█░
-           """)
 url = "https://api-gw-tg.memefi.club/graphql"
 def load_proxies():
     with open('proxy.txt', 'r') as file:
